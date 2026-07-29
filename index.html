@@ -1,11 +1,417 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>मानव कल्याण फाउंडेशन</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>मानव कल्याण फाउंडेशन | Manav Kalyan Foundation</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:linear-gradient(90deg,#0b7d3b,#ff8c00);
+padding:20px;
+color:#fff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+header h1{
+font-size:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-weight:bold;
+}
+
+.hero{
+height:85vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600') center/cover;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+padding:15px 30px;
+background:#ff8c00;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-size:18px;
+}
+
+section{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+footer{
+background:#0b7d3b;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+
 </head>
+
 <body>
+
+<header>
+
 <h1>मानव कल्याण फाउंडेशन</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Donate</a>
+<a href="#">Gallery</a>
+<a href="#">Volunteer</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<div class="hero">
+
+<div>
+
 <h2>मानवता की सेवा, हमारा संकल्प</h2>
-<p>Website is under development.</p>
+
+<p>Serving Humanity With Love & Care</p>
+
+<a href="#" class="btn">Donate Now ❤️</a>
+
+</div>
+
+</div>
+
+<section>
+
+<h2 align="center">हमारी सेवाएँ | Our Services</h2>
+
+<br><br>
+
+<div class="cards">
+
+<div class="card">
+<h3>🍛 Food Donation</h3>
+<p>गरीबों को भोजन उपलब्ध कराना।</p>
+</div>
+
+<div class="card">
+<h3>📚 Education</h3>
+<p>जरूरतमंद बच्चों की शिक्षा।</p>
+</div>
+
+<div class="card">
+<h3>🩺 Medical Help</h3>
+<p>स्वास्थ्य सहायता एवं दवा।</p>
+</div>
+
+<div class="card">
+<h3>👴 Elder Care</h3>
+<p>बुजुर्गों की सेवा।</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Manav Kalyan Foundation
+
+</footer>
+
 </body>
 </html>
+<section id="about">
+
+<h2 align="center">👥 हमारे बारे में | About Us</h2>
+<br>
+
+<p style="text-align:center;max-width:900px;margin:auto;font-size:18px;line-height:1.8;">
+<b>मानव कल्याण फाउंडेशन</b> एक गैर-लाभकारी संस्था है जिसका उद्देश्य गरीब, बेसहारा, अनाथ, बुजुर्ग और ज़रूरतमंद लोगों की सहायता करना है।
+<br><br>
+<b>Manav Kalyan Foundation</b> is a non-profit organization dedicated to serving humanity through food, education, healthcare, disaster relief and social welfare.
+</p>
+
+</section>
+
+<section id="donate">
+
+<h2 align="center">❤️ Donate Now | दान करें</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Scan QR Code</h3>
+
+<img src="qr.png" width="220" style="border-radius:15px;">
+
+<p style="margin-top:20px;font-weight:bold;color:#0b7d3b;">
+वर्तमान में दान संस्थापक के अधिकृत UPI खाते में स्वीकार किया जाता है।
+</p>
+
+<p>
+Donations are currently accepted through the founder's authorized UPI account.
+</p>
+
+<a class="btn" href="#">Donate Now</a>
+
+</div>
+
+<div class="card">
+
+<h3>Your Donation Helps</h3>
+
+<p>🍛 Food Distribution</p>
+<p>📚 Education Support</p>
+<p>🩺 Medical Help</p>
+<p>👴 Elder Care</p>
+<p>🌱 Environment</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="volunteer">
+
+<h2 align="center">🤝 Become a Volunteer</h2>
+
+<div class="card">
+
+<form>
+
+<input type="text" placeholder="Full Name" style="width:100%;padding:12px;margin:10px 0;">
+
+<input type="email" placeholder="Email" style="width:100%;padding:12px;margin:10px 0;">
+
+<input type="text" placeholder="Mobile Number" style="width:100%;padding:12px;margin:10px 0;">
+
+<textarea placeholder="Message" style="width:100%;padding:12px;height:120px;margin:10px 0;"></textarea>
+
+<button class="btn">Submit</button>
+
+</form>
+
+</div>
+
+</section>
+<section id="gallery">
+
+<h2 align="center">📸 Gallery | हमारी गतिविधियाँ</h2>
+<br>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1469571486292-b53601020f16?w=600" width="100%">
+<h3>Food Distribution</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600" width="100%">
+<h3>Education Support</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600" width="100%">
+<h3>Medical Camp</h3>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 align="center">📊 Our Impact</h2>
+
+<div class="cards">
+
+<div class="card">
+<h1>500+</h1>
+<p>Families Helped</p>
+</div>
+
+<div class="card">
+<h1>1000+</h1>
+<p>Meals Served</p>
+</div>
+
+<div class="card">
+<h1>150+</h1>
+<p>Volunteers</p>
+</div>
+
+<div class="card">
+<h1>50+</h1>
+<p>Social Events</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 align="center">📞 Contact Us</h2>
+
+<div class="card">
+
+<p><b>🏢 Manav Kalyan Foundation</b></p>
+
+<p>📍 India</p>
+
+<p>📞 +91-XXXXXXXXXX</p>
+
+<p>📧 info@manavkalyanfoundation.org</p>
+
+<p>🌐 www.manavkalyanfoundation.org</p>
+
+</div>
+
+</section>
+
+<a href="https://wa.me/91XXXXXXXXXX"
+style="
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:18px;
+border-radius:50%;
+font-size:28px;
+text-decoration:none;
+box-shadow:0 0 20px rgba(0,0,0,.3);
+">
+💬
+</a><!-- FAQ -->
+<section id="faq">
+<h2 align="center">❓ Frequently Asked Questions</h2>
+<div class="cards">
+
+<div class="card">
+<h3>NGO क्या करता है?</h3>
+<p>हम भोजन, शिक्षा, स्वास्थ्य और समाज सेवा के कार्य करते हैं।</p>
+</div>
+
+<div class="card">
+<h3>How can I donate?</h3>
+<p>Scan the QR Code or contact us directly.</p>
+</div>
+
+<div class="card">
+<h3>Volunteer कैसे बनें?</h3>
+<p>Volunteer Form भरें, हमारी टीम आपसे संपर्क करेगी।</p>
+</div>
+
+</div>
+</section>
+
+<!-- News -->
+<section>
+<h2 align="center">📰 Latest Activities</h2>
+
+<div class="cards">
+<div class="card">
+<h3>🍛 Food Drive</h3>
+<p>Food distributed to needy families.</p>
+</div>
+
+<div class="card">
+<h3>🌳 Tree Plantation</h3>
+<p>Environment awareness campaign.</p>
+</div>
+
+<div class="card">
+<h3>📚 Education Kit</h3>
+<p>School kits distributed to children.</p>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer style="background:#0b7d3b;color:white;padding:40px;text-align:center;">
+
+<h2>मानव कल्याण फाउंडेशन</h2>
+
+<p>मानवता की सेवा, हमारा संकल्प</p>
+
+<p>Serving Humanity With Love & Care</p>
+
+<p>
+❤️ Donate | 🤝 Volunteer | 📞 Contact
+</p>
+
+<p>
+© 2026 Manav Kalyan Foundation. All Rights Reserved.
+</p>
+
+</footer>
+
+<button onclick="window.scrollTo({top:0,behavior:'smooth'})"
+style="
+position:fixed;
+bottom:25px;
+left:20px;
+padding:12px 18px;
+border:none;
+border-radius:50%;
+background:#ff8c00;
+color:white;
+font-size:22px;
+cursor:pointer;
+">
+↑
+</button>
